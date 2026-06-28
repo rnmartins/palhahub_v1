@@ -1,3 +1,6 @@
+import whatsappIcon from '../images/icons8-whatsapp.gif';
+import instagramIcon from '../images/icons8-instagram-logo-94.png';
+
 function OrdersPage() {
   return (
     <main className="section">
@@ -19,13 +22,13 @@ function OrdersPage() {
           <h3>Contato</h3>
           <p>
             <a href="https://wa.me/5511977459445" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons8-whatsapp.gif" alt="WhatsApp" className="contact-icon" />
+              <img src={whatsappIcon} alt="WhatsApp" className="contact-icon" />
               <strong>+55 11 97745-9445</strong>
             </a>
           </p>
           <p>
             <a href="https://www.instagram.com/palhahub" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons8-instagram-logo-94.png" alt="Instagram" className="contact-icon" />
+              <img src={instagramIcon} alt="Instagram" className="contact-icon" />
               <strong>@palhahub</strong>
             </a>
           </p>

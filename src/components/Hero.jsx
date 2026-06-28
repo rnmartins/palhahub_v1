@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import heroImage from '../images/cozinhandoPalha.png';
 
 function Hero() {
   return (
@@ -36,7 +37,7 @@ function Hero() {
             repeatDelay: 2,
           }}
         >
-          <img src="/images/cozinhandoPalha.png" alt="Palha italiana sendo preparada" />
+          <img src={heroImage} alt="Palha italiana sendo preparada" />
         </motion.div>
       </div>
     </section>

@@ -1,3 +1,7 @@
+import galeria1 from '../images/nova2.png';
+import galeria2 from '../images/nova3.png';
+import galeria3 from '../images/nova4.png';
+
 function GalleryPage() {
   return (
     <main className="section">
@@ -7,9 +11,9 @@ function GalleryPage() {
           <p>Veja algumas ideias de apresentação e embalagens para suas encomendas.</p>
         </div>
         <div className="gallery-grid">
-          <img src="/images/nova2.png" alt="Palha italiana no prato" />
-          <img src="/images/nova3.png" alt="Detalhe de doce" />
-          <img src="/images/nova4.png" alt="Embalagem para presente" />
+          <img src={galeria1} alt="Palha italiana no prato" />
+          <img src={galeria2} alt="Detalhe de doce" />
+          <img src={galeria3} alt="Embalagem para presente" />
         </div>
       </div>
     </main>
