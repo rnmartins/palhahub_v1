@@ -27,8 +27,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   background:
     radial-gradient(circle at top left, rgba(183, 209, 230, 0.25), transparent 25%),
     var(--cream);
@@ -439,6 +438,11 @@ p {
 }
 
 @media (max-width: 700px) {
+  body {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
   .nav-toggle {
     display: block;
   }
