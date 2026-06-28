@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const navItems = [
+  { to: '/', label: 'Início', icon: '⌂' },
   { to: '/sobre', label: 'Sobre', icon: '✦' },
   { to: '/sabores', label: 'Sabores', icon: '☕' },
   { to: '/galeria', label: 'Galeria', icon: '✿' },
