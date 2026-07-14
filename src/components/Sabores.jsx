@@ -1,8 +1,8 @@
 const flavors = [
-  { title: 'Tradicional', description: 'Chocolate com biscoito crocante e cobertura de chocolate meio amargo.' },
-  { title: 'Brigadeiro', description: 'Recheio de brigadeiro cremoso. Um sucesso garantido entre adultos e crianças.' },
-  { title: 'Prestígio', description: 'Chocolate com coco ralado e toque de leite condensado.' },
-  { title: 'Oreo', description: 'Uma versão especial com pedaços de Oreo para quem ama sabor marcante.' },
+  { title: 'Tradicional', description: 'Biscoito de maizena e chocolate 50% cacau.' },
+  { title: 'Ninho', description: 'Brigadeiro de Ninho com biscoite de maizena.' },
+  { title: 'Oreo', description: 'Brigadeiro de Ninho com biscoito Oreo' },
+  { title: 'Paçoca', description: 'Brigadeiro de Paçoca com biscoito de maizena.' },
 ];
 
 function Sabores() {
