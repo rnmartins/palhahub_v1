@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import heroImage from '../images/cozinhandoPalha.png';
 
 function Hero() {
@@ -11,7 +12,7 @@ function Hero() {
           <p>Praticidade, embalagem bonita e atendimento rápido pelo WhatsApp. Peça hoje mesmo e surpreenda com um doce que encanta e impressiona.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="https://wa.me/5511977459445?text=Olá!%20Quero%20fazer%20um%20pedido%20de%20palha%20italiana." target="_blank" rel="noopener noreferrer">Pedir pelo WhatsApp</a>
-            <a className="button button-secondary" href="#sabores">Veja os sabores</a>
+            <Link className="button button-secondary" to="/sabores">Veja os sabores</Link>
             <a className="button button-secondary" href="https://www.instagram.com/palhahub" target="_blank" rel="noopener noreferrer">Ver Instagram @palhahub</a>
           </div>
           <div className="hero-highlights">
